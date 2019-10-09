@@ -1,0 +1,82 @@
+
+body {
+    background-image: url("../images/teal-background.png");
+    margin: 0;
+    padding: 0;
+    }
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 6EM;
+    color: #ffffac;
+    text-align: center;
+}
+
+#instructions {
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    color: #ffffac;
+    background-color:black;
+    text-align: center;
+    padding: 20px 40px
+}
+
+#double-horizontal-rule {
+	border-top: 3px double black;
+}
+
+p {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    color:  #ffffac;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#form-instruction{
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-lg {
+    font-family: 'Play', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.btn-lg:hover{
+    color: #ffffac;
+    background-color: gray;
+}
+
+#submit {
+    color: black;
+    font-weight: bold;
+    background-color: #ffffac;
+    margin-top: 5px;
+}
+
+#submit:hover {
+    background-color: gray;
+}
+
+.new-reaction-category{
+	margin: .5vh 1vw;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2vh 3vw 2vh 3vw;
+}
+
+.ridged-border{
+    border: 4mm ridge  #ffffac;
+    margin-top: 20px;
+}
+
+.gif-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}

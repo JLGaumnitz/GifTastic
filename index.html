@@ -1,0 +1,77 @@
+<!-- GifTastic Homework Assignment -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title>GifTastic | Reactions With Giphy</title>
+
+	<link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="display2">What's YOUR Reaction!?</h1>
+
+				<p id="instructions">Reaction Giphys are sooooo fun and express your true feelings more than words can.
+					<br>
+					Choose a category to see a dozen reactions. Click any image to animate it.
+					<br>
+					To add a different reaction, type it in and press Submit.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<hr id="double-horizontal-rule">
+
+		<div class="row">
+			<div id="button-container">
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="gif-container" class="col-xs-8">
+			</div>
+			<div class="col-xs-1">
+			</div>
+			<div class="col-xs-3">
+				<form>
+					<p id="form-instruction">Add a new "REACTION" category (examples: Great!, Disappointed, Scared,
+						Aloof, Obama Face):</p>
+					<input type="text" name="new-reaction-category" id="new-reaction-category">
+					<input type="submit" value="Fetch My Giphy" class="btn btn-warning btn-lg" id="submit">
+				</form>
+				<br>
+				<img src="assets/images/dog-fetching.gif" alt="Dog Fetching" height="120" width = "150
+				">
+			</div>
+		</div>
+
+		<!-- Linking jQuery CDN -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+		<!-- Linking JAVASCRIPT -->
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
