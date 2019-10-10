@@ -58,6 +58,11 @@ p {
     background-color:#ffffac;
 }
 
+.btn-lg:active {
+    color: black;
+    background-color:#ffffac;
+}
+
 #submit {
     color: black;
     font-weight: bold;
