@@ -1,4 +1,5 @@
-GifTastic | Homework Assignment #6
+GifTastic
+https://jlgaumnitz.github.io/GifTastic/
 
 What's Your Reaction!? 
 created by Jennifer Gaumnitz
