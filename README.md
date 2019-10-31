@@ -1,4 +1,5 @@
-GifTastic
+# GifTastic
+
 https://jlgaumnitz.github.io/GifTastic/
 
 What's Your Reaction!? 
